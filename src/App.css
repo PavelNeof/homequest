@@ -22,10 +22,179 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+}
+
+.blockButton {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+
+}
+
+.input {
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.button {
+  width: 100%;
+  height: 40px;
+}
+
+.imgBlock {
+  width: 100%;
+  position: relative;
+}
+
+.label {
+  margin-bottom: 3px;
+}
+
+.sectorStartOne {
+  position: absolute;
+  width: 160px;
+  height: 143px;
+  background-color: lightpink;
+  top: 686px;
+  left: 864px;
+  opacity: 70%;
+}
+.sectorStart {
+  position: absolute;
+  width: 96px;
+  height: 143px;
+  background-color: lightpink;
+  top: 686px;
+  left: 768px;
+  opacity: 70%;
+}
+.sectorZero {
+  position: absolute;
+  width: 96px;
+  height: 208px;
+  background-color: lightpink;
+  top: 478px;
+  left: 767px;
+  opacity: 70%;
+}
+.sectorOne {
+  position: absolute;
+  width: 250px;
+  height: 237px;
+  background-color: lightpink;
+  top: 241px;
+  left: 767px;
+  opacity: 70%;
+}
+.sectorTwo {
+  position: absolute;
+  width: 200px;
+  height: 189px;
+  background-color: lightpink;
+  top: 487px;
+  left: 567px;
+  opacity: 70%;
+}
+.sectorTwoTwo {
+  position: absolute;
+  width: 200px;
+  height: 246px;
+  background-color: lightpink;
+  top: 241px;
+  left: 567px;
+  opacity: 70%;
+}
+.sectorThree {
+  position: absolute;
+  width: 133px;
+  height: 588px;
+  background-color: lightpink;
+  top: 241px;
+  left: 434px;
+  opacity: 70%;
+}
+.sectorThreeThree {
+  position: absolute;
+  width: 201px;
+  height: 152px;
+  background-color: lightpink;
+  top: 676px;
+  left: 567px;
+  opacity: 70%;
+}
+.sectorFour {
+  position: absolute;
+  width: 267px;
+  height: 215px;
+  background-color: lightpink;
+  top: 241px;
+  left: 167px;
+  opacity: 70%;
+}
+.sectorFive {
+  position: absolute;
+  width: 267px;
+  height: 65px;
+  background-color: lightpink;
+  top: 651px;
+  left: 167px;
+  opacity: 70%;
+}
+.sectorFiveFive {
+  position: absolute;
+  width: 67px;
+  height: 195px;
+  background-color: lightpink;
+  top: 456px;
+  left: 367px;
+  opacity: 70%;
+}
+.sectorSix {
+  position: absolute;
+  width: 267px;
+  height: 114px;
+  background-color: lightpink;
+  top: 715px;
+  left: 167px;
+  opacity: 70%;
+}
+.sectorSeven {
+  position: absolute;
+  width: 316px;
+  height: 131px;
+  background-color: lightpink;
+  top: 110px;
+  left: 413px;
+  opacity: 70%;
+}
+.sectorEight {
+  position: absolute;
+  width: 200px;
+  height: 195px;
+  background-color: lightpink;
+  top: 456px;
+  left: 167px;
+  opacity: 70%;
+}
+.sectorNine {
+  position: absolute;
+  width: 175px;
+  height: 210px;
+  background-color: lightpink;
+  top: 476px;
+  left: 863px;
+  opacity: 70%;
 }
 
 @keyframes App-logo-spin {
