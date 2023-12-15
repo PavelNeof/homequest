@@ -14,25 +14,25 @@ function App() {
     if (data.block1 === '123') {
       setQuestions({ 1: true, 2: false, 3: false, 4: false, 5: false, 6: false, 7: false, 8: false })
     }
-    if (data.block2 === '123') {
+    if (data.block2 === '55555') {
       setQuestions({ 1: true, 2: true, 3: false, 4: false, 5: false, 6: false, 7: false, 8: false })
     }
-    if (data.block3 === '123') {
+    if (data.block3?.toLowerCase() === 'мокрыйнос69') {
       setQuestions({ 1: true, 2: true, 3: true, 4: false, 5: false, 6: false, 7: false, 8: false })
     }
-    if (data.block4 === '123') {
+    if (data.block4?.toLowerCase() === 'хвост') {
       setQuestions({ 1: true, 2: true, 3: true, 4: true, 5: false, 6: false, 7: false, 8: false })
     }
-    if (data.block5 === '123') {
+    if (data.block5 === '1234567890') {
       setQuestions({ 1: true, 2: true, 3: true, 4: true, 5: true, 6: false, 7: false, 8: false })
     }
-    if (data.block6 === '123') {
+    if (data.block6 === 'qweRty') {
       setQuestions({ 1: true, 2: true, 3: true, 4: true, 5: true, 6: true , 7: false, 8: false})
     }
     if (data.block7 === '2310') {
       setQuestions({ 1: true, 2: true, 3: true, 4: true, 5: true, 6: true , 7: true, 8: false})
     }
-    if (data.block8 === 'кошка') {
+    if (data.block8?.toLowerCase() === 'кошка') {
       setQuestions({ 1: true, 2: true, 3: true, 4: true, 5: true, 6: true , 7: true, 8: true})
     }
   }
@@ -71,8 +71,8 @@ function App() {
 
                 {questions['2'] && <div className="block">
                   <label className="label">Маленький, славный эльф справился со своим заданием! Открылась новая секция - Библиотека.
-                    Далее задание от автора: Моя первая взрослая книга была - Становление Короля-Лича, но я её прочитал на телефоне,
-                    а тебе необходимо найти мою первую взрослую книгу, которую я купил в книжкном.
+                    Далее задание от автора: Нужно составить пароль. Моя первая взрослая книга была - Становление Короля-Лича, но я её прочитал на телефоне,
+                    а тебе необходимо найти мою первую взрослую книгу, которую я купил в книжкном (страница 40).
                   </label>
                   <input className="input" {...methods.register('block3')} />
                   <button className="button" type="submit">
