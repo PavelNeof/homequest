@@ -14,7 +14,7 @@ function App() {
     if (data.block1 === '123') {
       setQuestions({ 1: true, 2: false, 3: false, 4: false, 5: false, 6: false, 7: false, 8: false })
     }
-    if (data.block2 === '55555') {
+    if (data.block2 === '5807149') {
       setQuestions({ 1: true, 2: true, 3: false, 4: false, 5: false, 6: false, 7: false, 8: false })
     }
     if (data.block3?.toLowerCase() === 'мокрыйнос69') {
